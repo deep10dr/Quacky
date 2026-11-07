@@ -1,0 +1,5 @@
+/**
+ * Telegram service stubs – Phase 2
+ * Will handle: sendMessage, sendPhoto, answerCallbackQuery, setWebhook
+ */
+export {};

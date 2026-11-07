@@ -1,0 +1,5 @@
+/**
+ * Supabase repositories – Phase 4+
+ * Will handle: all database queries (userRepo, foodRepo, expenseRepo, etc.)
+ */
+export {};

@@ -1,0 +1,5 @@
+/**
+ * AI service stubs – Phase 3
+ * Will handle: Gemini function calling, intent extraction, response generation
+ */
+export {};

@@ -1,0 +1,29 @@
+name = "quacky-api"
+main = "src/index.ts"
+compatibility_date = "2024-10-22"
+compatibility_flags = ["nodejs_compat"]
+
+# ─── Cron Triggers ────────────────────────────────────────────────────────────
+# Runs every minute to check and dispatch pending reminders
+[triggers]
+crons = ["* * * * *"]
+
+# ─── Environments ─────────────────────────────────────────────────────────────
+[env.development]
+name = "quacky-api-dev"
+
+[env.production]
+name = "quacky-api"
+
+# ─── Secrets (set via: wrangler secret put <KEY>) ─────────────────────────────
+# TELEGRAM_BOT_TOKEN
+# TELEGRAM_WEBHOOK_SECRET
+# GEMINI_API_KEY
+# SUPABASE_URL
+# SUPABASE_ANON_KEY
+# SUPABASE_SERVICE_ROLE_KEY
+
+# ─── Vars (non-secret config) ─────────────────────────────────────────────────
+[vars]
+APP_TIMEZONE = "Asia/Kolkata"
+APP_CURRENCY  = "INR"
