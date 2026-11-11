@@ -1,0 +1,9 @@
+{
+  "onlyBuiltDependencies": [
+    "@img/sharp-win32-x64",
+    "@cloudflare/workerd-windows-64",
+    "esbuild",
+    "sharp",
+    "workerd"
+  ]
+}

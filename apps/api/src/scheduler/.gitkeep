@@ -1,0 +1,6 @@
+/**
+ * Reminder scheduler – Phase 6
+ * Runs on Cloudflare Cron Triggers (every minute)
+ * Will query pending reminders and dispatch via Telegram
+ */
+export {};
